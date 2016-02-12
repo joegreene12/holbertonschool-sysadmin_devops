@@ -1,0 +1,4 @@
+1.I should create a public /private SSH key pair using ssh-keygen -t rsa -b 4096 in the command line..
+
+2.You need to copy the public key with ssh-copy-id which is safe to do but you can share freely without negative consequences. When you log in to a computer, the SSH server uses the public key to "lock" messages in a way that can only be "unlocked" by your private key
+3.You should never let anyone know it(secret).If you need it to add manually to a server, you can find it with cat ~/.ssh/id_rsa.pub
