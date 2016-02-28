@@ -14,7 +14,7 @@ case $voice in
 	say $message -v Ralph -o $filename.m4a
 	;;
     x)
-	say $message -v Zuzana -o $filename.m4a
+	say $message -v Zarvox -o $filename.m4a
 	;;
 esac
 echo 'Listen to the message on http://$address/$filename.m4a'

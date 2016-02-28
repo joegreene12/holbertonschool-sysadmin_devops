@@ -17,5 +17,5 @@ case $voice in
 	say $message -v Zuzana -o $filename.m4a
 	;;
 esac
-echo "Listen to the message on http://$address/$filename.m4a"
+echo 'Listen to the message on http://$address/$filename.m4a'
 scp ./$filename.m4a admin@158.69.76.132:/usr/share/nginx/html/
