@@ -1,0 +1,107 @@
+C refinery Review
+int string_len(char * s)
+{
+int length;
+int i;
+
+i = 0;
+length = 0;
+while (s[i] != ‘\0’)                  while (s[length++] can’t do it unless you return -1   or  while (s[++length]…
+{
+	length ++;
+	++i;
+}
+return (i) or (length)
+
+for (length = 0 ; s[length]
+
+
+swapping integers
+void swap(int *ii, int *jj)
+{
+	int temp;
+
+	temp = *ii;
+	*ii = *jj;
+	*jj = temp;
+
+}
+
+
+
+
+
+int main(void)
+{
+	int i;
+	int j;
+
+	i = 98;
+	j = 1337;
+	printf("Values of i %d, %d\n", i,j);
+	printf("Address of i %p, %p\n", &i, &j);
+	swap(&i, &j);
+	printf("%d, %d\n", i,j);
+	printf("%p, %p\n", &i, &j);
+}
+
+
+Print ARRAY
+void print_array(int *aa, int len)
+{
+	int c;
+
+	c =0;
+	while (c < len)
+	{
+		printf("%d\n", aa[c]);
+		c++;
+	}
+
+}
+ int main (void)
+{
+	int a[9]= {1,2,3,4,5,6,7,8}; now i want to returrn aa
+	print_array(a,9);
+	return (0);
+
+}
+
+
+alternative solution
+c = len
+while c > 0
+aa[c - 1]
+
+int get_size(int argc, char **argv )  /* dont forget name of program counts as an arg*/
+{
+	int n;
+
+	if (argc != 2)
+	{
+		printf("error I onlt want one argument\n")
+	return (-1);
+}
+n = atoi(argv[1]);
+printf
+
+
+	if (argv[1])
+	{
+
+
+	}
+}
+
+int main (int argc, char **argv ) # of arguments # of characters
+{
+	int s;
+
+	/* get the size of the square */
+	s = get_size(argc, argv);
+	/* print the square */
+
+	return(0)
+
+
+}
